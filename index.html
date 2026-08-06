@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Desert Byte | Custom Web Apps & Portals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-light mode-desktop">
+
+  <header id="nav_main_header">
+    <div class="inner-wrap-90">
+      <div class="brandLogo_txt">
+        Desert Byte <span>FZ-LLC</span>
+      </div>
+      <nav id="desktopMenu">
+        <ul>
+          <li><a href="#our-work">Recent Builds</a></li>
+          <li><a href="#faq-section">FAQ</a></li>
+          <li><a href="#contact-bottom" class="cta-nav-btn">Book a Sprint</a></li>
+          <li><button id="theme-switcher" style="background:none; border:none; font-size:1.2rem;" title="Toggle Theme">🌙</button></li>
+        </ul>
+      </nav>
+      <div id="mob-trigger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero-splash-v2" style="background-color: #0b0f19;">
+    <div class="inner-wrap-90 layout-hero-grid">
+       <div class="left-copy-area">
+         <h1>We build web apps that scale. No WordPress templates.</h1>
+         <p class="sub-lead">Based in Ras Al Khaimah. We help UAE startups and SMEs digitize their operations with custom React, Next.js, and Node.js dashboards that actually load fast.</p>
+         <a href="#contact-bottom" id="btn-hero-primary">Start a project</a>
+       </div>
+    </div>
+  </section>
+
+  <section id="our-work" class="bg-alt-gray">
+     <div class="inner-wrap-90">
+        <h2 class="sec-heading">Stuff we shipped recently</h2>
+        <div class="grid-services-3col">
+           <div class="srv-card">
+              <h3>B2B Logistics Portal</h3>
+              <p>Built a custom dashboard for a freight forwarding company in Dubai. Cut their manual Excel data entry by 40%. Stack used: Next.js frontend & Supabase database.</p>
+           </div>
+           <div class="srv-card">
+              <h3>E-commerce Integrations</h3>
+              <p>Hooking up local payment gateways (Network International, PayTabs, Stripe UAE) into headless Shopify storefronts for faster checkouts.</p>
+           </div>
+           <div class="srv-card">
+              <h3>Legacy App Rescues</h3>
+              <p>Taking over messy PHP codebases, fixing the spaghetti code, and migrating local servers to scalable AWS infrastructure.</p>
+           </div>
+        </div>
+     </div>
+  </section>
+
+  <section id="faq-section">
+    <div class="inner-wrap-90 max-w-600">
+        <h2>Common questions we get asked</h2>
+      <div class="accordion-wrap">
+         <div class="acc-row">
+            <h4 class="acc-trigger">Do you guys use WordPress? <span class="ico">+</span></h4>
+            <div class="acc-content hidden-panel">
+              <p>We rarely take on standard WP brochure sites anymore. We prefer headless CMS architectures like Sanity or Strapi because they are much more secure and faster.</p>
+            </div>
+         </div>
+         <div class="acc-row">
+            <h4 class="acc-trigger">What are your payment terms? <span class="ico">+</span></h4>
+            <div class="acc-content hidden-panel">
+               <p>Usually 50% upfront to lock in our development sprint, 25% on staging beta, and 25% post-launch. We invoice locally via RAKBANK or Stripe.</p>
+            </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing-plans" class="page-section">
+    <div class="inner-wrap-90">
+       <h2 class="sec-heading" style="text-align: center;">Simple, transparent pricing</h2>
+       <div class="pricing-grid">
+          <div class="price-card">
+             <h3>MVP Build</h3>
+             <div class="price-amount">AED 15,000<span>/project</span></div>
+             <ul class="price-features">
+                <li>&check; Core Features & UI</li>
+                <li>&check; Database Setup</li>
+                <li>&check; 3 Weeks Delivery</li>
+             </ul>
+          </div>
+          <div class="price-card popular-plan">
+             <div class="badge">Most Popular</div>
+             <h3>Full Scale Portal</h3>
+             <div class="price-amount">AED 35,000<span>/project</span></div>
+             <ul class="price-features">
+                <li>&check; Everything in MVP</li>
+                <li>&check; Admin Dashboard</li>
+                <li>&check; 3rd Party APIs</li>
+                <li>&check; 8 Weeks Delivery</li>
+             </ul>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <section id="client-reviews" class="bg-alt-gray page-section">
+    <div class="inner-wrap-90">
+       <h2 class="sec-heading" style="text-align: center;">What our clients say</h2>
+       <div class="slider-wrapper">
+          <div class="slider-track" id="testimonial-track">
+             <div class="slide-item">
+                <p>"They completely transformed our logistics process. Highly recommended!"</p>
+                <h4>- Khalid A., Dubai</h4>
+             </div>
+             <div class="slide-item">
+                <p>"Fast, reliable, and no BS. The code quality is top-notch."</p>
+                <h4>- Sarah M., RAK</h4>
+             </div>
+             <div class="slide-item">
+                <p>"Our Shopify store loads in under 1 second now. Insane work."</p>
+                <h4>- Omar T., Abu Dhabi</h4>
+             </div>
+          </div>
+          <div class="slider-controls">
+             <button id="prev-slide">&larr; Prev</button>
+             <button id="next-slide">Next &rarr;</button>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <section id="company-stats" class="page-section" style="background-color: var(--brand-primary); color: #000;">
+    <div class="inner-wrap-90">
+       <div class="stats-container" style="display: flex; justify-content: space-around; text-align: center; flex-wrap: wrap; gap: 30px;">
+          <div class="stat-box">
+             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="42">0</span>+</h2>
+             <p style="font-weight: bold; font-size: 1.1rem;">Projects Shipped</p>
+          </div>
+          <div class="stat-box">
+             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="99">0</span>%</h2>
+             <p style="font-weight: bold; font-size: 1.1rem;">Client Satisfaction</p>
+          </div>
+          <div class="stat-box">
+             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="15000">0</span></h2>
+             <p style="font-weight: bold; font-size: 1.1rem;">Lines of Code</p>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <section id="our-team" class="page-section bg-alt-gray">
+    <div class="inner-wrap-90">
+       <h2 class="sec-heading" style="text-align: center;">Meet the Engineers</h2>
+       <div class="team-grid">
+          <div class="team-card">
+             <div class="avatar-circle">ZM</div>
+             <h3>Zeyad Mamdouh</h3>
+             <p class="role-txt">Lead Full-Stack Architect</p>
+             <p class="bio-txt">Obsessed with clean code and performance. When not building web apps, usually tinkering with embedded systems, IoT microcontrollers, or creating 3D animations in Blender.</p>
+          </div>
+          <div class="team-card">
+             <div class="avatar-circle" style="background: #334155;">SK</div>
+             <h3>Saif K.</h3>
+             <p class="role-txt">UI/UX & Frontend</p>
+             <p class="bio-txt">Turns coffee into CSS. Ensures everything looks pixel-perfect across all devices and handles our accessibility standards.</p>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <section id="innovation-labs" class="page-section" style="background-color: #020617; color: #fff;">
+    <div class="inner-wrap-90">
+       <h2 class="sec-heading" style="color: #fff; text-align: center;">Labs: Hardware & CV Integrations</h2>
+       <p style="text-align: center; color: #94a3b8; margin-bottom: 50px;">Live monitoring dashboard simulating our Smart School systems and automated fire safety logic.</p>
+       <div class="dashboard-mockup">
+          <div class="dash-panel">
+             <h4>🔥 Fire Safety Logic</h4>
+             <div class="sensor-status">
+                <span class="indicator safe pulse-anim"></span> 
+                <p>Zone A (ESP32): <span id="esp-temp">24.5</span>°C</p>
+             </div>
+             <div class="sensor-status">
+                <span class="indicator safe"></span> 
+                <p>Smoke Sensors: <span style="color: #4ade80;">Clear</span></p>
+             </div>
+             <div class="sensor-status">
+                <span class="indicator warning pulse-anim"></span> 
+                <p>Servo Motors: Standby</p>
+             </div>
+          </div>
+          <div class="dash-panel">
+             <h4>👁️ CV Attendance</h4>
+             <p>Model: <strong>dlib Face Recognition</strong> (Raspberry Pi 3 B+)</p>
+             <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Swap memory allocated. Status: Active.</p>
+             <div class="progress-bar-wrap">
+                <div class="progress-fill" style="width: 98%;">98% Accuracy</div>
+             </div>
+          </div>
+       </div>
+    </div>
+  </section>
+
+  <section id="contact-bottom" class="footer-contact">
+     <div class="inner-wrap-90 flex-split">
+        <div class="loc-info">
+           <h2>Let's grab a coffee</h2>
+           <p>Skip the formal meetings. Tell us what you're trying to build.</p>
+           <address class="office-addr">
+             Office 402, Amenity Center Tower 1<br>
+             Al Hamra Industrial Zone-FZ<br>
+             Ras Al Khaimah, United Arab Emirates
+           </address>
+           <p class="direct-mail">Founders direct email: <a href="mailto:zizomamdouh140@gmail.com">zizomamdouh140@gmail.com</a></p>
+        </div>
+        <div class="form-container-box">
+           <form id="lead_capture_frm">
+              <input type="text" id="spam_trap_55" style="display:none;" tabindex="-1">
+              <div class="form_row">
+                 <label for="f_name">Your Name</label>
+                 <input type="text" id="f_name" name="first_name">
+                 <span class="err-txt" id="err_f_name"></span>
+              </div>
+              <div class="form_row">
+                 <label for="contact_email">Work Email</label>
+                 <input type="email" id="contact_email" name="work_email">
+                 <span class="err-txt" id="err_email"></span>
+              </div>
+              <div class="form_row">
+                 <label for="proj_brief">Project Details (Budget, timeline, etc.)</label>
+                 <textarea id="proj_brief" name="project_details" rows="5"></textarea>
+                 <span class="err-txt" id="err_brief"></span>
+              </div>
+              <div class="form_row file-drop-zone" id="drop-zone">
+                 <p>Drag & Drop project files here<br><span style="font-size: 0.8rem; color: #64748b;">(or click to browse)</span></p>
+                 <input type="file" id="file-input" hidden multiple>
+                 <ul id="file-list" style="margin-top: 10px; text-align: left; padding: 0;"></ul>
+              </div>
+              <button type="submit" id="btn_submit_lead">Send Request</button>
+              <div id="status_msg"></div>
+           </form>
+        </div>
+     </div>
+  </section>
+
+  <footer class="site-ftr">
+    <div class="inner-wrap-90">
+      <p>&copy; 2026 Desert Byte Web Solutions FZ-LLC.</p>
+    </div>
+  </footer>
+
+  <div id="scroll-progress"></div>
+  <button id="back-to-top" title="Go to top">&uarr;</button>
+
+  <div id="dev-terminal" class="hidden-modal">
+     <div class="terminal-window">
+        <div class="term-header">
+           <span class="term-btn close-term" id="close-term-btn"></span>
+           <span class="term-btn min-term"></span>
+           <span class="term-btn max-term"></span>
+           <span class="term-title">zeyad@desertbyte: ~ (Press ESC to close)</span>
+        </div>
+        <div class="term-body" id="term-output">
+           <p style="color: #4ade80;">System initialized. Welcome to Desert Byte internal terminal.</p>
+           <p>Type 'help' to see available commands.</p>
+           <div class="input-line">
+              <span style="color: #60a5fa;">$</span> <input type="text" id="term-input" autocomplete="off" spellcheck="false">
+           </div>
+        </div>
+     </div>
+  </div>
+  
+  <div class="custom-cursor" id="custom-cursor"></div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
