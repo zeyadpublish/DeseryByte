@@ -1,16 +1,7 @@
-Desert Byte | Tailored Web Applications and Portals
+Desert Byte is a custom web app and portal development company, and this is their portfolio website. It was constructed for the #horizons hackathon hosted by Hack Club.
 
-A proficient, one's own web agency portfolio created for Hack Club #horizons hackathon.
+In just 20 hours, a quick, personalized web experience was to be created. Their goal was to create something interactive and scalable without utilizing a lot of external tools or libraries. Everything was coded from scratch using only JavaScript, HTML5, and CSS3, including animations and functionality.
 
-The project has consumed twenty hours of effort spent on designing a scalable and engaging web experience without the help of powerful external libraries and frameworks. It has the unique animations, interactions, and logic entirely created by using pure Vanilla JavaScript, HTML5, and CSS3.
+It's not merely a simple template. For interactive user experiences, it has intricate features and custom math: * Cards on the page tilt according to your mouse position. This was accomplished without the use of a library such as `VanillaTilt.js`.
 
-Outstanding Features and Engineering Highlights
-
-It is non-standard template which includes complex logic and unique calculations used for advanced UI/UX interaction.
-
-* Unique 3D tilt mechanism: Cards tilt along the X and Y axes when the user moves his/her cursor as compared to the object.
-* Hardware/IoT Simulation Lab: A real-world dashboard showing the changes in ESP32 temperature and the CPU memory allocations
-* Easter egg Terminal: Upon pressing the tilde (~) key, one can see a hidden developer terminal modal
-* Vanilla Drag and Drop uploading: Customized file drop box which blocks default behavior of the browser, changes the displaying of the UI on hover, and defines files’ names and size locally.
-* Permanent dark/light mode: The ability to change the theme and save the selection in browser localStorage.
-* Customized animated cursor: Hiding the
+* An ESP32 device and memory are used in a simulated lab to display temperature changes.
