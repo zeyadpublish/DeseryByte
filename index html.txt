@@ -57,14 +57,7 @@
         </div>
      </div>
   </section>
-  <section id="live-git-feed" style="padding: 80px 0; background-color: #0b0f19; border-top: 1px solid #1e293b;">
-   <div class="inner-wrap-90">
-      <h2 style="color: #f1f5f9; margin-bottom: 10px;">Live Git Activity</h2>
-      <p style="color: #94a3b8; margin-bottom: 30px;">Fetching my recent pushes directly from the official GitHub API.</p>
-      <button id="fetch-repos-btn">Sync Repositories</button>
-      <div id="repos-container" class="git-grid"></div>
-   </div>
-  </section>
+
   <section id="faq-section">
     <div class="inner-wrap-90 max-w-600">
         <h2>Common questions we get asked</h2>
@@ -143,15 +136,15 @@
     <div class="inner-wrap-90">
        <div class="stats-container" style="display: flex; justify-content: space-around; text-align: center; flex-wrap: wrap; gap: 30px;">
           <div class="stat-box">
-             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="10">0</span>+</h2>
+             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="42">0</span>+</h2>
              <p style="font-weight: bold; font-size: 1.1rem;">Projects Shipped</p>
           </div>
           <div class="stat-box">
-             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="90">0</span>%</h2>
+             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="99">0</span>%</h2>
              <p style="font-weight: bold; font-size: 1.1rem;">Client Satisfaction</p>
           </div>
           <div class="stat-box">
-             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="1500">0</span></h2>
+             <h2 style="font-size: 3.5rem; margin-bottom: 0;"><span class="count-up" data-target="15000">0</span></h2>
              <p style="font-weight: bold; font-size: 1.1rem;">Lines of Code</p>
           </div>
        </div>
@@ -178,7 +171,37 @@
     </div>
   </section>
 
-  
+  <section id="innovation-labs" class="page-section" style="background-color: #020617; color: #fff;">
+    <div class="inner-wrap-90">
+       <h2 class="sec-heading" style="color: #fff; text-align: center;">Labs: Hardware & CV Integrations</h2>
+       <p style="text-align: center; color: #94a3b8; margin-bottom: 50px;">Live monitoring dashboard simulating our Smart School systems and automated fire safety logic.</p>
+       <div class="dashboard-mockup">
+          <div class="dash-panel">
+             <h4>🔥 Fire Safety Logic</h4>
+             <div class="sensor-status">
+                <span class="indicator safe pulse-anim"></span> 
+                <p>Zone A (ESP32): <span id="esp-temp">24.5</span>°C</p>
+             </div>
+             <div class="sensor-status">
+                <span class="indicator safe"></span> 
+                <p>Smoke Sensors: <span style="color: #4ade80;">Clear</span></p>
+             </div>
+             <div class="sensor-status">
+                <span class="indicator warning pulse-anim"></span> 
+                <p>Servo Motors: Standby</p>
+             </div>
+          </div>
+          <div class="dash-panel">
+             <h4>👁️ CV Attendance</h4>
+             <p>Model: <strong>dlib Face Recognition</strong> (Raspberry Pi 3 B+)</p>
+             <p style="font-size: 0.85rem; color: #64748b; margin-top: 5px;">Swap memory allocated. Status: Active.</p>
+             <div class="progress-bar-wrap">
+                <div class="progress-fill" style="width: 98%;">98% Accuracy</div>
+             </div>
+          </div>
+       </div>
+    </div>
+  </section>
 
   <section id="contact-bottom" class="footer-contact">
      <div class="inner-wrap-90 flex-split">
@@ -237,7 +260,7 @@
            <span class="term-btn close-term" id="close-term-btn"></span>
            <span class="term-btn min-term"></span>
            <span class="term-btn max-term"></span>
-           <span class="term-title">zizomamdouh140@gmail.com: ~ (Press ESC to close)</span>
+           <span class="term-title">zeyad@desertbyte: ~ (Press ESC to close)</span>
         </div>
         <div class="term-body" id="term-output">
            <p style="color: #4ade80;">System initialized. Welcome to Desert Byte internal terminal.</p>
