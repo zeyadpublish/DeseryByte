@@ -198,27 +198,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  const themeBtn = document.getElementById("theme-switcher");
-  const bodyEl = document.body;
-  
-  if(localStorage.getItem("desertByteTheme") === "dark") {
-    bodyEl.classList.add("theme-dark");
-    if(themeBtn) themeBtn.innerText = "☀️";
-  }
-
-  if(themeBtn) {
-    themeBtn.addEventListener("click", () => {
-      bodyEl.classList.toggle("theme-dark");
-      if(bodyEl.classList.contains("theme-dark")) {
-        localStorage.setItem("desertByteTheme", "dark");
-        themeBtn.innerText = "☀️";
-      } else {
-        localStorage.setItem("desertByteTheme", "light");
-        themeBtn.innerText = "🌙";
-      }
-    });
-  }
-
   const counters = document.querySelectorAll(".count-up");
   const speed = 200;
 
