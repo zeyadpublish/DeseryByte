@@ -1,16 +1,14 @@
 DesertByte is a website i made it for my business it can show them my work by sync my repos from my github API i used also many laungage in it i used HTML,CSS,Vanilla JavaScript
 here is some scrennshots of my website
-<img width="1180" height="820" alt="IMG_3517" src="https://github.com/user-attachments/assets/1c793983-b82d-493f-b6a1-67857a892ce4" />
-<img width="1180" height="820" alt="IMG_3518" src="https://github.com/user-attachments/assets/42e2014c-b2d4-4d26-8cc3-c0bbd760c804" />
-<img width="1180" height="820" alt="IMG_3519" src="https://github.com/user-attachments/assets/0d29d838-3a92-488b-ae16-36c6b60f1090" />
-<img width="1180" height="820" alt="IMG_3520" src="https://github.com/user-attachments/assets/610fa526-f093-4841-a47d-e92e3994991b" />
-<img width="1180" height="820" alt="IMG_3521" src="https://github.com/user-attachments/assets/0d1e6c53-d846-4376-ab9f-4553157e9f04" />
-<img width="1180" height="820" alt="IMG_3512" src="https://github.com/user-attachments/assets/65263050-a749-4134-b67e-3408d696badc" />
-<img width="1180" height="820" alt="IMG_3513" src="https://github.com/user-attachments/assets/b385b7a5-95c3-406a-9548-73db3f3e1c5c" />
-<img width="1180" height="820" alt="IMG_3514" src="https://github.com/user-attachments/assets/f01ef083-214d-4deb-b044-9e6e9004b90b" />
-<img width="1180" height="820" alt="IMG_3515" src="https://github.com/user-attachments/assets/298d2359-a557-4d27-b52a-304714e96b6e" />
-<img width="1180" height="820" alt="IMG_3516" src="https://github.com/user-attachments/assets/ef5e9331-5a87-4a56-8937-c0be2d98f291" />
-<img width="1180" height="820" alt="IMG_3511" src="https://github.com/user-attachments/assets/6f1890bd-3c8a-4bbf-9df8-b4982651102f" />
-<img width="2360" height="1525" alt="IMG_3509" src="https://github.com/user-attachments/assets/4e7d541b-cc51-4f47-bf9b-c187cce64ae1" />
-<img width="1180" height="820" alt="IMG_3510" src="https://github.com/user-attachments/assets/c6390fb1-bf14-40f3-8d67-1ad43a291bff" />
-<img width="2360" height="1387" alt="IMG_3508" src="https://github.com/user-attachments/assets/7e59e8da-d648-46c5-b530-10f61d1f8c8b" />
+<img width="1180" height="820" alt="IMG_3551" src="https://github.com/user-attachments/assets/af43ec63-a111-4293-bd30-fae8a5b7e490" />
+<img width="1180" height="820" alt="IMG_3550" src="https://github.com/user-attachments/assets/8edf430d-7c22-4e2d-8ff6-e11b21a6c398" />
+<img width="1180" height="820" alt="IMG_3549" src="https://github.com/user-attachments/assets/3080e21d-41fa-48d7-a3a4-abcdf6316c2a" />
+<img width="1180" height="820" alt="IMG_3548" src="https://github.com/user-attachments/assets/3869eb46-9efe-4d02-b6b8-150aaec08e1f" />
+<img width="1180" height="820" alt="IMG_3547" src="https://github.com/user-attachments/assets/ced657ac-5744-4a43-83ce-e02ffc58f389" />
+<img width="1180" height="820" alt="IMG_3546" src="https://github.com/user-attachments/assets/6b98acc9-e4a2-4db0-8fa5-805bfb1b9c11" />
+<img width="1180" height="820" alt="IMG_3545" src="https://github.com/user-attachments/assets/827d1d93-180b-4cb7-9d87-3d9044d4c843" />
+<img width="1180" height="820" alt="IMG_3544" src="https://github.com/user-attachments/assets/dfcbcfbd-3ff2-4f4b-bce3-85934ea8163d" />
+<img width="1180" height="820" alt="IMG_3543" src="https://github.com/user-attachments/assets/727d07ac-8cb8-436e-8078-0b5d5f295eed" />
+<img width="1180" height="820" alt="IMG_3542" src="https://github.com/user-attachments/assets/e5ee965c-0ae7-4378-a4f8-4ec39fe8858d" />
+<img width="1180" height="820" alt="IMG_3541" src="https://github.com/user-attachments/assets/e8f7a9b3-4835-448f-acc8-5bf2c38d66c0" />
+
