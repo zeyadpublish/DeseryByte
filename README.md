@@ -12,3 +12,4 @@ here is some scrennshots of my website
 <img width="1180" height="820" alt="IMG_3542" src="https://github.com/user-attachments/assets/e5ee965c-0ae7-4378-a4f8-4ec39fe8858d" />
 <img width="1180" height="820" alt="IMG_3541" src="https://github.com/user-attachments/assets/e8f7a9b3-4835-448f-acc8-5bf2c38d66c0" />
 
+⚠️⚠️i used little bit ai to fix some errors like slightly ai to fix error like 5% only
